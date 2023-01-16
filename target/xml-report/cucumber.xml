@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.825">
+    <testcase classname="US1006 Kullanici configuration dosyasindaki bilgiler ile login olabilmelidir" name="TC09 Gecerli kullanici adi ve sifre ile Pozitif Login Testi" time="0.112">
+        <system-out>
+            <![CDATA[Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then cookie varsa kabul eder................................................passed
+Then ilk sayfa login linkine click yapar....................................passed
+And kullanici kutusuna "qdGecerliUsername" yazar............................passed
+And password kutusuna "qdGecerliPassword" yazar.............................passed
+Then login butonuna basar...................................................passed
+And basarili giris yapildigini test eder....................................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
